@@ -1,0 +1,233 @@
+.popup-notifi .popup-container {
+  padding-top: 16px;
+  height: 100%;
+}
+
+.popup-notifi .popup-header {
+  height: 35px;
+}
+
+.popup-notifi .popup-title {
+  position: relative;
+  width: fit-content;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.popup-notifi .cancel-notifi {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px;
+  position: relative;
+  background-color: #c0bebe;
+  border-radius: 50px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.popup-notifi .cancel-notifi:hover {
+  background-color: #999999;
+}
+
+.popup-notifi .vector {
+  position: relative;
+  width: 12.62px;
+  height: 12.62px;
+}
+
+.popup-notifi .header-noti-line {
+  height: 1px;
+  object-fit: cover;
+}
+
+.all-noti{
+  position: relative;
+  /* width: fit-content; */
+  /* font-family: "Roboto-SemiBold", Helvetica; */
+  font-weight: 600;
+  color: #999999;
+  background-color: aliceblue;
+  font-size: 14px;
+  /* letter-spacing: 0; */
+  /* line-height: normal; */
+  /* white-space: nowrap; */
+  padding: 6px 14px 6px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.all-noti:hover{
+  background-color: aqua;
+}
+
+.not-read-noti{
+  position: relative;
+  width: fit-content;
+   font-weight: 600;
+  color: #999999;
+  background-color: aliceblue;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 6px 5px 6px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.not-read-noti:hover{
+  background-color: aqua;
+}
+
+.popup-notifi .noti-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.popup-notifi .noti-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.popup-notifi .noti-avatar {
+  position: relative;
+  width: 2.7rem;
+  height: 2.7rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.popup-notifi .noti-info {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+}
+
+.popup-notifi .p-noti {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  /* font-family: "Roboto-SemiBold", Helvetica; */
+  font-weight: 400;
+  color: #344258;
+  font-size: 12px;
+  /* letter-spacing: 0; */
+  /* line-height: normal; */
+  text-align: start;
+}
+
+.popup-notifi .username-span {
+  font-weight: 600;
+  cursor: pointer;
+   font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.popup-notifi .username-span:hover {
+  color: #3DB3FB;
+}
+
+.popup-notifi .noti-action {
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+}
+
+.popup-notifi .action-time {
+  position: relative;
+  align-self: stretch;
+   font-weight: 600;
+  color: #a2a5b9;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: start;
+}
+
+.popup-notifi .letter-container{
+    border-radius: 50%;
+    background-color: #3DB3FB;
+}
+
+.popup-notifi .noti-status {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #3DB3FB;
+  object-fit: scale-down;
+  cursor: pointer;
+}
+
+.popup-notifi .noti-status:hover {
+  background-color: #1255e7;
+}
+
+.popup-notifi .noti-status-not {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #c0bebe;
+  object-fit: scale-down;
+  cursor: pointer;
+}
+
+.popup-notifi .noti-status-not:hover{
+  background-color: #999999;
+}
+
+.popup-notifi .noti-item-line {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  margin-bottom: -0.94px;
+}
+
+.popup-notifi .view-all-wrapper {
+  display: flex;;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.popup-notifi .view-all {
+  position: relative;
+  width: fit-content;
+   font-weight: 600;
+  color: #999999;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.popup-notifi .view-all:hover{
+  color: #344258;
+}

@@ -1,0 +1,147 @@
+html,
+body {
+  font-family: "Arial", sans-serif !important;
+}
+
+.rich-text-editor strong {
+  font-weight: bold;
+}
+
+.rich-text-editor em {
+  font-style: italic;
+}
+
+.rich-text-editor h1 {
+  font-size: 32px;
+}
+
+.rich-text-editor h2 {
+  font-size: 24px;
+}
+
+.rich-text-editor h3 {
+  font-size: 18.72px;
+}
+
+.rich-text-editor ol li {
+  list-style: decimal;
+  margin-left: 20px;
+}
+
+.rich-text-editor ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.ReactQuill .ql-toolbar .ql-snow {
+  padding: 0px !important;
+}
+
+.Toastify__toast-container {
+  text-align: left;
+}
+
+#root {
+  height: 100%;
+  overflow: auto;
+}
+
+#root em {
+  font-style: italic;
+}
+
+#root u {
+  text-decoration: underline;
+}
+
+#root strong {
+  font-weight: bold;
+}
+
+#root .process-result-history ol {
+  list-style-type: decimal !important;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#root .process-result-history ul {
+  list-style-type: disc !important;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.chat-container {
+  overflow-y: auto;
+  max-height: 100%;
+  position: relative;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.swal2-confirm {
+  background-color: #3085d6 !important;
+  color: #fff !important;
+}
+
+.swal2-cancel {
+  background-color: #d33 !important;
+  color: #fff !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Hiển thị rõ các nút Swal2 mà không cần hover */
+.swal2-confirm,
+.swal2-cancel {
+  background-color: #d33 !important;
+  /* đỏ confirm */
+  color: white !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+  border: none !important;
+  transition: none !important;
+}
+
+/* Nút Cancel có màu riêng */
+.swal2-cancel {
+  background-color: #3085d6 !important;
+  /* xanh cancel */
+}

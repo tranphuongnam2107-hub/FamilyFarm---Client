@@ -1,0 +1,21 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profes-nav-item {
+  color: #3e3f5e;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profes-nav-item.highlight-page {
+  color: #3db3fb;
+}

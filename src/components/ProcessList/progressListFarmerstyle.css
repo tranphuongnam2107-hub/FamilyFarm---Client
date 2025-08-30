@@ -1,0 +1,460 @@
+.progress-managment {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.progress-managment .progress-managment-container {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.progress-managment .search-progress-container {
+  background-color: #f5f5f5;
+  border-radius: 2px;
+}
+
+.progress-managment .search-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.progress-managment .material-symbols-search {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+.progress-managment .search-input {
+  position: relative;
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.progress-managment .status-nav-container {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.progress-managment .status-progress-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+}
+
+.progress-managment .status-all {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.status-all::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #3db3fb;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.status-all:hover::after {
+  transform: scaleX(1);
+}
+
+.status-all:hover .text-2{
+  color: #3db3fb;
+}
+
+.progress-managment .status-uncompleted {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.status-uncompleted::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #3db3fb;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.status-uncompleted:hover::after {
+  transform: scaleX(1);
+}
+
+.status-uncompleted:hover .text-2{
+  color: #3db3fb;
+}
+
+.progress-managment .text-2 {
+  position: relative;
+  width: fit-content;
+  font-family: 'Roboto-Medium', Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black-2);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-managment .status-completed {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.status-completed::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #3db3fb;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.status-completed:hover::after {
+  transform: scaleX(1);
+}
+
+.status-completed:hover .text-2{
+  color: #3db3fb;
+}
+
+.progress-managment .status-need-info {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.status-need-info::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #3db3fb;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.status-need-info:hover::after {
+  transform: scaleX(1);
+}
+
+.status-need-info:hover .text-2{
+  color: #3db3fb;
+}
+
+.progress-managment .progress-card {
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  border-radius: 2px;
+  padding: 16px;
+}
+
+.progress-managment .status-info-uncompleted {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 16px;
+  background-color: #ef3e3640;
+  border-radius: 2px;
+}
+
+.progress-managment .text-uncompleted-a-need {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-red);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.header-progress-section {
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.progress-managment .infor-progress-section {
+  display: flex;
+  flex-direction: column;
+  width: 236px;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.progress-managment .info-1 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.progress-managment .text-progress-info-1 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black-2);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-managment .text-progress-id {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-right: -3.00px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-managment .text-progress-p-1 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-black-2);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-managment .date-info {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer-progress-section {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.progress-managment .footer-progress-button {
+  display: flex;
+  width: 152px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #3db3fb40;
+  border-radius: 2px;
+  margin-top: 26px;
+  text-align: end;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.footer-progress-button:hover {
+ background-color: #c5d0e7;
+}
+
+.progress-managment .progress-button-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #3db3fb;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-managment .progress-step-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.progress-managment .done-step {
+  display: flex;
+  width: 74px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: #3db3fb40;
+  border-radius: 2px;
+}
+
+.progress-managment .not-done-step {
+  display: flex;
+  width: 74px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: var(--variable-collection-black);
+  border-radius: 2px;
+}
+
+.progress-managment .status-info-completed {
+  background-color: #2bb67340;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: 2px;
+}
+
+.progress-managment .text-completed {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-green);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-managment .status-info-needinf {
+  background-color: #ef3e3640;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: 2px;
+}
+
+/* //LIST BOOKING FARMER */
+.footer-booking-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-booking-card .left-footer-booking-card {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.footer-booking-card .left-footer-booking-card .extra-process-btn {
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  color: #EF3E36;
+  background: rgba(239, 62, 54, 0.25);
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: 0.2s;
+  font-weight: bold;
+}
+.footer-booking-card .left-footer-booking-card .extra-process-btn:hover{
+  background: rgba(239, 62, 54, 0.5);
+}
+
+.footer-booking-card .footer-wrapper {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: end;
+}
+.footer-booking-card .footer-wrapper .footer-booking-button{
+  padding: 0.5rem 2rem;
+  color: #3DB3FB;
+  background: #3db2fb56;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.footer-booking-card .footer-wrapper .footer-booking-button:hover{
+  background: #3db2fb79;
+}
+.footer-booking-card .footer-wrapper .footer-booking-price .total-price{
+  color: #3E3F5E;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.footer-booking-card .footer-wrapper .footer-booking-price .total-price span {
+  color: #EF3E36;
+}
+

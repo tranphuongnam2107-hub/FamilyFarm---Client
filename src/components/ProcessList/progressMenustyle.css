@@ -1,0 +1,29 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.status-process-container{
+  padding: 1rem;
+}
+.status-process-container .item-process {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: left;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  transition: 0.25s ease-in;
+}
+.status-process-container .item-process:hover {
+  background: #3db2fb2c;
+}
+.status-process-container .item-process.highlight-item {
+  background: #3db2fb2c;
+}

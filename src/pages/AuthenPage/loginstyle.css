@@ -1,0 +1,991 @@
+/* body{
+    overflow: hidden;
+}
+
+.login-page {
+    background-color: #00000033;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .login-page .img-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .login-page .img-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .login-page .div {
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .login-page .frame {
+    display: flex;
+    flex-direction: column;
+    width: 606px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: absolute;
+    top: 250px;
+    left: 786px;
+  }
+  
+  .login-page .we-always-welcome {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    background: linear-gradient(
+      90deg,
+      rgba(43, 182, 115, 1) 0%,
+      rgba(61, 179, 251, 1) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Rajdhani-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-green);
+    font-size: 40px;
+    letter-spacing: 2.00px;
+    line-height: normal;
+  }
+  
+  .login-page .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-red);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+  }
+
+  .login-page .text-wrapper:hover {
+    color: #CC9933;
+  }
+  
+  .login-page .overlap {
+    position: absolute;
+    width: 723px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    background: rgba(255, 255, 255, 0.25);
+  }
+  
+  .login-page .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 466px;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 531px;
+    left: 122px;
+  }
+  
+  .login-page .div-wrapper {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #3db3fb;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .login-page .div-wrapper:hover {
+    background-color: #4b2354;
+  }
+  
+  .login-page .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .login-page .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #3e3f5e;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-red);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .logo {
+    position: absolute;
+    width: 192px;
+    height: 46px;
+    top: 32px;
+    left: 260px;
+  }
+  
+  .login-page .logo-image {
+    position: absolute;
+    width: 60px;
+    height: 46px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .login-page .family-farm {
+    position: absolute;
+    top: 8px;
+    left: 68px;
+    font-family: "Rajdhani-Bold", Helvetica;
+    font-weight: 700;
+    color: #1d3554;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    width: fit-content;
+    white-space: nowrap;
+  }  
+  
+  .login-page .frame-4 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    top: 118px;
+    left: 122px;
+  }
+  
+  .login-page .p {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #3db3fb;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login-page .text-wrapper-5 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #3e3f5e;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login-page .group {
+    height: 104px;
+    top: 223px;
+    left: 122px;
+    position: absolute;
+    width: 468px;
+  }
+  
+  .login-page .frame-5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .login-page .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-red);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .overlap-group-wrapper {
+    height: 50px;
+    top: 32px;
+    left: 0;
+    position: absolute;
+    width: 468px;
+  }
+  
+  .login-page .overlap-group {
+    position: relative;
+    width: 466px;
+    height: 50px;
+    background-color: #3e3f5e0d;
+    border-radius: 10px;
+  }
+  
+  .login-page .mdi-user {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    left: 16px;
+  }
+
+  .login-page .mdi-clock {
+    position: absolute;
+    width: 16px;
+    height: 21px;
+    top: 13px;
+    left: 16px;
+  }
+  
+  .login-page .input-text {
+    position: absolute;
+    top: 12px;       
+    left: 48px;     
+    width: 400px;
+    height: 26px;
+    border: none;
+    background: transparent;
+    font-family: "Roboto", Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--variable-collection-black);
+    outline: none;
+  }
+
+  .login-page .text-wrapper-9 {
+    position: absolute;
+    top: 90px;
+    left: 16px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ef3e36;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .group-2 {
+    height: 104px;
+    top: 359px;
+    left: 122px;
+    position: absolute;
+    width: 468px;
+  }
+  
+  .login-page .vector {
+    position: absolute;
+    width: 16px;
+    height: 21px;
+    top: 14px;
+    left: 20px;
+  }
+  
+  .login-page .mdi-eye {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    left: 426px;
+    cursor: pointer;
+  }
+
+  .login-page .login-options {
+    display: flex;
+    width: 466px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 487px;
+    left: 122px;
+  }
+
+  .login-page .remember-me {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .login-page .img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .login-page .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #3e3f5e;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #26ace2;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .frame-8 {
+    display: flex;
+    flex-direction: column;
+    width: 466px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 635px;
+    left: 122px;
+  }
+  
+  .login-page .text-wrapper-12 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #0099FF;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login-page .frame-9 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .login-page .frame-10 {
+    display: flex;
+    width: 223px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-page .frame-10:hover {
+    background-color: #ff0000;
+  }
+  
+  .login-page .text-wrapper-13 {
+    color: #000000;
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+  }
+
+  .login-page .frame-10:hover .text-wrapper-13 {
+    color: #ffffff;
+  }
+  
+  .login-page .frame-11 {
+    display: flex;
+    width: 223px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    background-color: #3db3fb;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-page .frame-11:hover {
+    background-color: #4b2354;
+  }
+  
+  .login-page .text-wrapper-14 {
+    color: #ffffff;
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  } */
+
+body{
+    overflow: hidden;
+}
+
+.login-page {
+    background-color: #00000033;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .login-page .img-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Cho nằm dưới */
+  }
+
+  .login-page .img-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .login-page .div {
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .login-page .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10%;
+  }
+  
+  .login-page .we-always-welcome {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    text-align: center;
+    background: linear-gradient(
+      90deg,
+      rgba(43, 182, 115, 1) 0%,
+      rgba(61, 179, 251, 1) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Rajdhani-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-green);
+    font-size: 40px;
+    letter-spacing: 2.00px;
+    line-height: normal;
+  }
+  
+  .login-page .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-red);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+  }
+
+  .login-page .text-wrapper:hover {
+    color: #CC9933; /* hoặc #d35400 hoặc #6c3483 tùy cảm hứng */
+  }
+  
+  .login-page .overlap {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    background-size: cover;
+  }
+
+  .form-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .login-page .frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .login-page .div-wrapper {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #3db3fb;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .login-page .div-wrapper:hover {
+    background-color: #4b2354; /* 👈 Màu mới khi hover */
+  }
+  
+  .login-page .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .login-page .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #3e3f5e;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-red);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .logo {
+    width: 192px;
+    height: 46px;
+  }
+  
+  .login-page .logo-image {
+    width: 60px;
+    height: 46px;
+    object-fit: cover;
+  }
+  
+  .login-page .family-farm {
+    font-family: "Rajdhani-Bold", Helvetica;
+    font-weight: 700;
+    color: #1d3554;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    width: fit-content;
+    white-space: nowrap;
+  }  
+  
+  .login-page .frame-4 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .login-page .p {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #3db3fb;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login-page .text-wrapper-5 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #3e3f5e;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login-page .group {
+    height: 104px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .login-page .frame-5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  
+  .login-page .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-red);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .overlap-group-wrapper {
+    height: 50px;
+  }
+  
+  .login-page .overlap-group {
+    position: relative;
+    height: 50px;
+    background-color: #3e3f5e0d;
+    border-radius: 10px;
+  }
+  
+  .login-page .mdi-user {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    left: 16px;
+  }
+
+  .login-page .mdi-clock {
+    position: absolute;
+    width: 16px;
+    height: 21px;
+    top: 13px;
+    left: 16px;
+  }
+  
+  .login-page .input-text {
+    position: absolute;
+    top: 12px;        
+    left: 48px;       
+    width: 86%; 
+    height: 26px;
+    border: none;
+    background: transparent;
+    font-family: "Roboto", Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    outline: none;     /* Bỏ viền khi focus */
+  }
+
+  .login-page .text-wrapper-9 {
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ef3e36;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .group-2 {
+    height: 104px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .login-page .vector {
+    position: absolute;
+    width: 16px;
+    height: 21px;
+    top: 14px;
+    left: 20px;
+  }
+  
+  .login-page .mdi-eye {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    left: 91%;
+    cursor: pointer;
+  }
+
+  .login-page .login-options {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .login-page .remember-me {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .login-page .img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .login-page .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #3e3f5e;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #26ace2;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .frame-8 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+    gap: 16px;
+  }
+  
+  .login-page .text-wrapper-12 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #0099FF;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login-page .frame-9 {
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .login-page .frame-10 {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-page .frame-11 {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    background-color: #3db3fb;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-page .frame-10:hover {
+    background-color: #ff0000;
+  }
+  
+  .login-page .text-wrapper-13 {
+    color: #000000;
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+  }
+
+  .login-page .frame-10:hover .text-wrapper-13 {
+    color: #ffffff;
+  }
+
+  .login-page .frame-11:hover {
+    background-color: #4b2354;
+  }
+  
+  .login-page .text-wrapper-14 {
+    color: #ffffff;
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }

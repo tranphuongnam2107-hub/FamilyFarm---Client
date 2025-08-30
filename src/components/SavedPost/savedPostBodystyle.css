@@ -1,0 +1,9 @@
+.save-post-main {
+    padding-left: 0%;
+}
+
+@media (min-width: 1024px) {
+    .save-post-main {
+        padding-left: min(289px, 100%);
+    }
+}

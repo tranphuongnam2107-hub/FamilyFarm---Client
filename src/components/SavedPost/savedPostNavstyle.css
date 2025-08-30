@@ -1,0 +1,61 @@
+.save-post-page-container {
+  background-color: #E5E4E9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.save-post-page-title {
+  font-family: "Roboto-bold", Helvetica;
+  font-weight: 700;
+  color: #393a4f;
+  font-size: 18px;
+  letter-spacing: 1.80px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.type-post-text {
+  font-family: "Roboto-bold", Helvetica;
+  font-weight: 700;
+  color: #393a4f;
+  font-size: 16px;
+  letter-spacing: 1.80px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-container {
+  /* transition: background-color 0.2s ease; */
+}
+
+.home-container:hover {
+  background-color: rgba(153, 153, 153, 0.25);
+}
+
+.video-container {
+  /* transition: background-color 0.2s ease; */
+}
+
+.video-container:hover {
+  background-color: rgba(153, 153, 153, 0.25);
+}
+
+.image-container {
+  /* transition: background-color 0.2s ease; */
+}
+
+.image-container:hover {
+  background-color: rgba(153, 153, 153, 0.25);
+}
+/* .menu-saved-item-active{
+  background-color: rgba(153, 153, 153, 0.25);
+} */
+
+.menu-saved-item-active {
+  background-color: rgba(61, 179, 251, 1); /* blue */
+  color: white;
+}
+
+.menu-saved-item-active img {
+  filter: brightness(0) invert(1); /* đổi icon sang trắng nếu cần */
+}

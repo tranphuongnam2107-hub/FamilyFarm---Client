@@ -1,0 +1,103 @@
+.create-h1-label {
+    width: fit-content;
+    height: 21px;
+}
+
+.create-group-h1 {
+    font-family: "Roboto-bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-black-2);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.admin-name {
+    font-family: "Roboto-bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-black-2);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.admin-role {
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #3DB3FB;
+    font-size: 14px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.upload-bg-img-text {
+    color: var(--variable-collection-black);
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.upload-avt-img-text {
+    color: var(--variable-collection-black);
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.privacy-text {
+    color: var(--variable-collection-black-2);
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.member-text {
+    color: var(--variable-collection-black-2);
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.search-container {
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-color: #3DB3FB;
+}
+
+.input-friend {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.member-name {
+    color: #3DB3FB;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.create-btn-text {
+    margin-top: -1px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}

@@ -1,0 +1,42 @@
+.menu-progress-container {
+  height: 164px;
+}
+
+.menu-title {
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black-2);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.menu-booking-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.text-menu-booking {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black-2);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+ .menu-your-progress-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px;
+  border-radius: 2px;
+}
+.inPageBackground {
+  background-color: #3db3fb40;
+}

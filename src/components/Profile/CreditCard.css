@@ -1,0 +1,275 @@
+
+:root {
+    --main-color: #d90429;
+    --main-lighter-color: #ef233c;
+    --light-color: #8d99ae;
+    --lighter-color: #edf2f4;
+    --dark-color: #3E3F5E;
+
+    --font-smaller: 14px;
+    --font-bigger: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.FormCreditCard {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--dark-color);
+    background-color: #f9f5f5;
+}
+
+ul {
+    list-style: none;
+}
+strong {
+    font-weight: 800;
+}
+
+.container-credit {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.outer-credit {
+    margin-top: 1em;
+    border-radius: 1.8em;
+    padding: 4em 2em;
+    background-color: white;
+}
+.header-credit {
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-credit .logo-credit{
+    font-size: 1.5em;
+    font-style: italic;
+    width: auto;
+}
+.header-credit .logo-credit strong{
+    color: var(--main-color);
+}
+.header-credit .title-credit{
+    color: var(--dark-color);
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: end;
+    transform: translateX(-50%);
+}
+.payment-credit, .payment-credit :where(form > div:not(.card-number), .card-expiration, .input-credit) {
+    display: flex;
+    align-items: center;
+}
+.payment-credit .card-number {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.payment-credit {
+    flex-direction: column-reverse;
+    gap: 4em;
+}
+.payment-credit form > div {
+    margin-bottom: 2.5em;
+    flex-direction: column;
+    align-items: stretch;
+}
+.payment-credit form > div:not(.card-number) > div {
+    flex: 1 0 30%;
+    margin: 0.5em 0;
+    width: 30%;
+}
+.payment-credit .left-credit p {
+    font-size: var(--font-bigger);
+    font-weight: 700;
+}
+.payment-credit .left-credit span {
+    color: var(--light-color);
+}
+.payment-credit .left-credit input{
+    font-weight: 600;
+    font-size: var(--font-bigger);
+    padding: 0 1em;
+    line-height: 46px;
+    border-radius: 8px;
+    width: 100%;
+    border: 2px solid var(--lighter-color);
+    outline-color: transparent;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.payment-credit .left-credit input::placeholder{
+    font-weight: 300;
+    font-family: inherit;
+    letter-spacing: 2px;
+    color: var(--light-color);
+    font-size: var(--font-smaller);
+    opacity: .5;
+}
+.payment-credit .left-credit input:focus {
+    outline-color: var(--main-lighter-color);
+    background-color: var(--lighter-color);
+}
+.payment-credit .card-number-box {
+    position: relative;
+    margin-top: 1em;
+    width: 100%;
+}
+.payment-credit .card-number-box input {
+    padding: 0 4em;
+}
+.payment-credit .card-number-box input::placeholder{
+    font-size: inherit;
+}
+.payment-credit form .cc-logo{
+    position: absolute;
+    top: 50%;
+    left: 1.2em;
+    margin-top: -10px;
+}
+.payment-credit .cc-logo::before, .payment-credit .cc-logo::after {
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--main-lighter-color);
+}
+.payment-credit .cc-logo::after{
+    background-color: #f79e1c;
+    margin-left: -7px;
+    opacity: .75;
+}
+.payment-credit .card-expiration .input{
+    gap: 10%;
+    text-align: center;
+}
+.payment-credit .card-expiration input{
+    text-align: center;
+}
+.payment-credit form button {
+    font-size: var(--font-bigger);
+    font-weight: 600;
+    border: 0;
+    background-color: var(--main-lighter-color);
+    color: white;
+    line-height: 56px;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.payment-credit form button:hover{
+    background-color: var(--main-color);
+}
+.payment-credit .right-credit{
+    max-width: 400px;
+    width: 100%;
+}
+.payment-credit .card-virtual{
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    margin: 0 2em -0.5em;
+    padding: 2em;
+    line-height: 2em;
+    font-size: var(--font-bigger);
+    font-weight: 600;
+    color: white;
+    background-color: var(--dark-color);
+    border-radius: 10px;
+    box-shadow: rgb(43 45 66 / 30%) 0 20px 30px;
+    z-index: 1;
+    overflow: hidden;
+}
+.payment-credit .card-virtual .cc-logo {
+    position: relative;
+    transform: scale(5);
+    text-align: center;
+}
+.payment-credit .card-virtual .name-holder{
+    margin: 3em 0 0;
+    text-align: left;
+    font-weight: 500;
+}
+.payment-credit .chip {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0 -1.5em -1.5em;
+    opacity: .5;
+}
+.payment-credit .chip img {
+    width: 30px;
+    fill: #7e6b00;
+    margin-top: 0.5em;
+}
+.payment-credit .card-virtual .highlight{
+    position: relative;
+    height: auto;
+    margin: 2em -2em -2em;
+    background-color: var(--light-color);
+    border-radius: 0 0 10px 10px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+/* FIX  */
+.payment-credit form > div .text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.payment-credit .card-expiration .input-credit {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.payment-credit .card-expiration .input-credit input[type="number"]::-webkit-outer-spin-button,
+.payment-credit .card-expiration .input-credit input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@media screen and (min-width: 576px){
+    .outer-credit {
+        padding: 4em;
+    }
+    .payment-credit form > div {
+        flex-direction: row;
+    }
+    .payment-credit form > div .text {
+        padding-right: 0.5em;
+    }
+}
+@media screen and (min-width: 992px){
+    .header-credit{
+        max-width: 70%;
+        padding-right: 4em;
+        margin-bottom: 1em;
+    }
+    .payment-credit {
+        flex-direction: row;
+        gap: 0;
+    }
+    .payment-credit .left-credit {
+        flex: 1 0 65%;
+        padding-right: 4em;
+    }
+    .payment-credit .right-credit {
+        flex: 1 0 35%;
+        align-self: flex-end;
+    }
+}

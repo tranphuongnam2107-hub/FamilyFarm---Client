@@ -1,0 +1,406 @@
+.progress-management {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.progress-management .div {
+  background-color: #ffffff;
+  width: 100%;
+  height: 1024px;
+  position: relative;
+}
+
+.progress-management .frame {
+  gap: 59px;
+}
+
+.progress-management .frame-overview {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.progress-management .frame-service {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.progress-management .frame-2 {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.progress-management .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  transition: filter 0.3s ease;
+  color: #3e3f5e;
+}
+
+.progress-management .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black-2);
+  letter-spacing: 0;
+  line-height: normal;
+  transition: color 0.3s ease;
+}
+
+.progress-management .frame-overview:hover .img {
+  filter: brightness(0) saturate(100%) invert(64%) sepia(79%) saturate(531%) hue-rotate(173deg) brightness(97%) contrast(93%);
+}
+
+.progress-management .frame-overview:hover .text-wrapper-4 {
+  color: #3db3fb;
+}
+
+.progress-management .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black-2);
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  transition: color 0.3s ease;
+}
+
+.progress-management .frame-service:hover .img {
+  filter: brightness(0) saturate(100%) invert(64%) sepia(79%) saturate(531%) hue-rotate(173deg) brightness(97%) contrast(93%);
+}
+
+.progress-management .frame-service:hover .text-wrapper-5 {
+  color: #3db3fb;
+}
+
+.progress-management .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #3e3f5e;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .text-wrapper-title {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black-2);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .overlap-wrapper {
+  height: 280px;
+}
+
+.progress-management .overlap-3 {
+  position: relative;
+  height: 280px;
+  background-color: var(--variable-collection-light-gray);
+  border-radius: 10px;
+}
+
+.progress-management .text-wrapper-7 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: var(--variable-collection-black-2);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .frame-3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 10px 15px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px #00000040;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.progress-management .frame-3:hover {
+  background-color: #D7D7D7;
+}
+
+.progress-management .img-2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.progress-management .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: var(--variable-collection-black-2);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .frame-4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 10px 15px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px #00000040;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.progress-management .frame-4:hover {
+  background-color: #D7D7D7;
+}
+
+.progress-management .frame-5 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 10px 15px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px #00000040;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.progress-management .frame-5:hover {
+  background-color: #D7D7D7;
+}
+
+.progress-management .frame-6 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.progress-management .polygon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  color: #ffffff;
+}
+
+.progress-management .frame-10 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.progress-management .text-wrapper-12 {
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: var(--variable-collection-black-2);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 150px; /* hoặc width: fit-content nếu bạn muốn thay đổi */
+  height: 24px;
+}
+
+.progress-management .group-2 {
+  width: 100%;
+  height: 88px;
+}
+
+.progress-management .overlap-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  width: 100%;
+  height: 88px;
+  background-color: var(--variable-collection-light-gray);
+  border-radius: 10px;
+}
+
+.progress-management .frame-11 {
+  cursor: pointer;
+}
+
+.progress-management .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #3db3fb;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .frame-12 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.progress-management .p {
+  position: relative;
+  margin-top: -1.00px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: var(--variable-collection-black-2);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.progress-management .p-date {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: var(--variable-collection-black-2);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .text-wrapper-14 {
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: var(--variable-collection-black-2);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .date-create {
+  padding: 7px 10px;
+  border-radius: 10px;
+}
+
+.progress-management .group-5 {
+  height: 24px;
+}
+
+.progress-management .frame-16 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.progress-management .text-wrapper-16 {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black-2);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .text-wrapper-17 {
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black-2);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .text-wrapper-18 {
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black-2);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .frame-17 {
+}
+
+.progress-management .text-wrapper-19 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .text-wrapper-20 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: var(--variable-collection-red);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progress-management .frame-18 {
+}
+
+.progress-management .mask-group {
+  width: 22px;
+  height: 22px;
+}
+
+@media (min-width: 1024px) and (max-width: 1157px) {
+  .progress-management .group-5 {
+    min-width: 547px;
+  }
+
+  .progress-management .overlap-4 {
+    gap: 10px;
+  }
+}
